@@ -2,21 +2,60 @@
 	display: flex;
     flex-flow: row; nowrap;
     flex-direction:row;
+    bottom: 0px;
+    position: absolute;
+    align-items: center;   
 }
 .box-1 {
 	display: flex;
-    flex-flow: column; nowrap;
-    flex-direction:column;
+    flex-flow: row; nowrap;
+    flex-direction:row;
+    
+}
+ 
+.one-1 {
+        flex: 48;
+        padding: 2%;
+        text-indent: 4%;
+        background-color:#518996;
+        margin: 50px;
 }
 
+.one-2 {
+	flex: 48;
+        padding: 2%;
+        text-indent: 4%;
+        margin: 160px;
+}
+
+
+.two-2 {
+        flex: 48%;
+        padding: 2%;
+      }
+
+#images-1 {
+ 	width: 100%;
+ 	height: auto;
+ }
+
+.flex-box {
+	display: flex;
+    flex-flow: row; nowrap;
+    flex-direction:row;
+    
+}
 .one {
-        flex: 33.3%;
-      }
+	flex: 33.3%;
+	bottom: 0px;
+}
 .two {
-        flex: 33.3%;
-      }
+	flex: 33.3%;
+	bottom: 0px;
+}
 .three {
         flex: 33.3%;
+        bottom: 0px;
       }
 
 .box-left {
@@ -24,15 +63,49 @@
 	left:  0px;
 	width: 46%;
 	padding: 2%;
+	background-color:#518996;
+   padding: auto;
+   border: 1px;
+   margin: 70px;
+   width: 500px;
 }
-
+#images {
+ 	width: 46%;
+ 	height: auto;
+ }
 .box-right {
 	position: absolute;
 	left: 50%;
 	width:  46%;
 	padding:  2%;
+	background-color:#518996;
+   padding: auto;
+   border: 1px;
+   margin: 20px;
+   width: 500px;
+}
+.defensive-info {
+	text-indent: 4%;
+	position: absolute;
+	padding: 2%;
+	background-color:#518996;
+   
+}
+.offensive-info {
+	text-indent: 4%;
+	position: absolute;
+	left:  0px;
+	width: 46%;
+	padding: 2%;
+	background-color:#518996;
+   padding: auto;
+   border: 1px;
+   margin: 70px;
+   width: 500px;
+}
+body {
+	background-color:#62a5b3;
+	font-family: Optima, sans-serif;
+
 }
 
-body {
-	font-family: Optima, sans-serif;
-}
