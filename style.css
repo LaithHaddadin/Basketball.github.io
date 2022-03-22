@@ -25,7 +25,7 @@
 	flex: 48;
         padding: 2%;
         text-indent: 4%;
-        margin: 160px;
+        margin: 160px;s
 }
 
 
@@ -46,17 +46,21 @@
     
 }
 .one {
-	flex: 33.3%;
+	flex: 25%;
 	bottom: 0px;
 }
 .two {
-	flex: 33.3%;
+	flex: 25%;
 	bottom: 0px;
 }
 .three {
-        flex: 33.3%;
+        flex: 25%;
         bottom: 0px;
       }
+.four {
+	flex: 25%;
+	bottom: 0px;
+}
 
 .box-left {
 	position: absolute;
@@ -90,6 +94,19 @@
 	padding: 2%;
 	background-color:#518996;
    
+}
+.zone-defense {
+	text-indent: 4%;
+	position: relative;
+	padding: 2%;
+	
+	width: 50%;
+	left: 25%;
+}
+.motion-offense {
+	width: 50%;
+	left: 25%;
+	position:  relative;
 }
 .offensive-info {
 	text-indent: 4%;
